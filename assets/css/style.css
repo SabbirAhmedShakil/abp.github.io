@@ -837,3 +837,53 @@ img{
     padding-bottom: 20px;
     border-bottom: 1px solid #ddd;
 }
+
+
+.video-main-section{
+    padding: 80px 0;
+}
+.video-main-section .row{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 25px 25px;
+    border-radius: 20px;    
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.video-grid-section{
+    display: flex;
+    row-gap: 20px;
+    column-gap: 2%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.video-grid-section:first-child{
+    margin-top: 0;
+}
+.video-grid-section h1{
+    width: 100%;
+    color: #00ACF3;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+}
+.video-grid-section .video-column{
+    width: 49%;
+    padding-bottom: 9px;
+    background: #ECF6FBA1;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.41);
+}
+.video-grid-section .video-column iframe{
+    border-radius: 20px;    
+}
+.video-grid-section .video-column h3{
+    color: #272727;
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: "Noto Sans KR", Sans-serif;
+}
